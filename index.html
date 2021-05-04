@@ -19,16 +19,18 @@
   <link rel="stylesheet" href="css/all.min.css">
   <link rel="stylesheet" href="css/venobox.css">
   <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/animate.css">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/responsive.css">
 </head>
 
-<body>
+<body data-bs-spy="scroll" data-bs-target=".navbar">
   <!-- ---------------------- nav start-------------- -->
-  <nav class="navbar navbar-expand-lg">
+  <nav class="navbar navbar-expand-lg menu">
     <div class="container">
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand wow flash
+      " href="#">
         <img src="images/logo.png" alt="logo">
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -38,25 +40,23 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link active" aria-current="page" href="#banner-part">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#"> About us </a>
+            <a class="nav-link" href="#about-part"> About us </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#"> Our Portfolio </a>
+            <a class="nav-link" href="#protfolio_part"> Our Portfolio </a>
+          </li>
+        
+          <li class="nav-item">
+            <a class="nav-link" href="#testimonial_part"> Testimonial </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#"> Our Portfolio </a>
+            <a class="nav-link" href="#Pricing_part"> Pricing Plan </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#"> Testimonial </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#"> Pricing Plan </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#"> Contact us </a>
+            <a class="nav-link" href="#Team_part"> Contact us </a>
           </li>
 
         </ul>
@@ -799,6 +799,16 @@
   <!-- ---------------------- banner bottom-------------- -->
   <section id="fbanner-bottom-shape"></section>
   <!-- ---------------------- banner bottom-------------- -->
+  <!-- ---------------------- backtotop part start------------- -->
+   <!-- <a href="#" class="backtotop"><i class="fas fa-angle-up"></i></a> -->
+  
+   <button href="#" class="backtotop">
+     <i class="fas fa-angle-up"></i>
+    </button>
+
+
+  <!-- ---------------------- backtotop part end------------- -->
+
   <!-- --z-------------------- footer start-------------- -->
   <footer>
     <div class="logo">
@@ -887,6 +897,7 @@
   <script src="js/waypoints.min.js"></script>
   <script src="js/jquery.counterup.min.js"></script>
   <script src="js/slick.min.js"></script>
+  <script src="js/wow.min.js"></script>
   <script src="js/script.js"></script>
 </body>
 
