@@ -21,7 +21,9 @@
   nav ul li a:hover::after {
     width: 0%;
   }
-
+  nav ul li a::after {
+  display: none;
+  }
   /* nav end */
 
 
